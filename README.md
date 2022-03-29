@@ -5,8 +5,8 @@ This package provides an OpenMP-boosted Normal Distributions Transform (and GICP
 
 ### Benchmark (on Core i7-6700K)
 ```
-$ roscd ndt_omp/data
-$ rosrun ndt_omp align 251370668.pcd 251371071.pcd
+$ cd src/ndt_omp/data
+$ ros2 run ndt_omp align 251370668.pcd 251371071.pcd
 --- pcl::NDT ---
 single : 282.222[msec]
 10times: 2921.92[msec]
